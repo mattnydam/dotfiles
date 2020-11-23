@@ -7,6 +7,10 @@ DOTFILES_ROOT=$(pwd -P)
 
 set -e
 
+# Run Homebrew through the Brewfile
+echo "› brew bundle"
+brew bundle
+
 echo ''
 
 info () {
