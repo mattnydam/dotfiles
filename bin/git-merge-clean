@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+# Delete *.orig merge artifacts.
+
+find . -name '*.orig' -delete
