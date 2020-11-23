@@ -157,4 +157,10 @@ then
 fi
 
 echo ''
-echo '  All installed!'
+echo ' SimSim and Logitech Options are unavailable from App Store or Cask. Install Manually'
+echo ''
+echo ' https://www.logitech.com/en-au/product/options'
+echo ''
+echo ' https://github.com/dsmelov/simsim'
+echo ''
+echo 'All installed!'
