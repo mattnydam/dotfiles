@@ -17,10 +17,13 @@
         editor = vim
 [apply]
         whitespace = nowarn
-[mergetool]
-        keepBackup = false
 [difftool]
         prompt = false
+[merge]
+    tool = kdiff3
+    conflictstyle = diff3
+[mergetool]
+    keepBackup = false
 [help]
         autocorrect = 1
 [push]
