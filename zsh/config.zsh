@@ -1,5 +1,8 @@
 export LSCOLORS="exfxcxdxbxegedabagacad"
 export CLICOLOR=true
+export PATH="$HOME/go/bin:$PATH"
+export http_proxy=localhost:3128
+export https_proxy=localhost:3128
 
 fpath=($ZSH/functions $fpath)
 
